@@ -1,0 +1,31 @@
+{
+  "name": "@n0ts123/worktip",
+  "version": "1.0.0",
+  "description": "A simple MCP server that returns development guidelines",
+  "type": "module",
+  "bin": {
+    "worktip": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "development",
+    "protocol",
+    "guidelines"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
