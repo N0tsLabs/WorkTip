@@ -1,7 +1,7 @@
 {
     "name": "@n0ts123/worktip",
-    "version": "1.0.3",
-    "description": "A simple MCP server that returns development guidelines",
+    "version": "1.0.4",
+    "description": "提供三阶段开发工作流协议的 MCP 服务器，帮助 AI 编程工具遵循规范的分析、方案、执行流程",
     "type": "module",
     "bin": {
         "worktip": "./dist/index.js"
@@ -19,10 +19,13 @@
     },
     "keywords": [
         "mcp",
-        "model-context-protocol",
-        "development",
+        "workflow",
+        "工作流",
+        "开发规范",
         "protocol",
-        "guidelines"
+        "cursor",
+        "claude",
+        "ai编程"
     ],
     "author": "",
     "license": "MIT",
