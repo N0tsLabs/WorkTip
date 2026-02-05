@@ -1,6 +1,6 @@
 {
     "name": "@n0ts123/worktip",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "提供三阶段开发工作流协议的 MCP 服务器，帮助 AI 编程工具遵循规范的分析、方案、执行流程",
     "type": "module",
     "bin": {
